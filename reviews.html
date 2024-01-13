@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header top-header">
+      <div class="container">
+        <div class="burger">
+          <span></span>
+        </div>
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img src="images/logo.png" alt="Логотип" />
+          </a>
+          <nav class="header__menu menu">
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="index.html">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="reviews.html">Отзывы</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="blog.html">Блог</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="contacts.html">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header__link-box">
+            <a class="header__phone" href="tel:+89807665897"
+              >+8 (980) 76 65 897</a
+            >
+            <a data-goto=".kviz__item" class="header__btn btn" href="#"
+              >Пройти тест
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="reviews reviews-block top-section">
+        <div class="container">
+          <h1 class="reviews__title title">Отзывы</h1>
+          <div class="reviews__subtitle">
+            <p>Что наши клиенты говорят о нас</p>
+          </div>
+          <div class="slider-buttons">
+            <div class="slide-button-prev"></div>
+            <div class="slide-button-next"></div>
+          </div>
+          <div class="slider swiper-container">
+            <ul class="item slider-wrapper swiper-wrapper">
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/01.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Ксения Ковалева</div>
+                      <a class="item__link" href="#">@kseniakovaleva</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/02.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Георгий Горин</div>
+                      <a class="item__link" href="#">@georgiigorin</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/01.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Ксения Ковалева</div>
+                      <a class="item__link" href="#">@kseniakovaleva</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/02.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Георгий Горин</div>
+                      <a class="item__link" href="#">@georgiigorin</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/01.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Ксения Ковалева</div>
+                      <a class="item__link" href="#">@kseniakovaleva</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/02.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Георгий Горин</div>
+                      <a class="item__link" href="#">@georgiigorin</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/01.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Ксения Ковалева</div>
+                      <a class="item__link" href="#">@kseniakovaleva</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item__column swiper-slide">
+                <div class="item__content">
+                  <div class="item__descr">
+                    <p>
+                      Рыбатекст используется дизайне- рами, проектировщиками и
+                      фронтендерами, когда нужно быстро заполнить макеты или
+                      прототипы содержимым. или прототипы содержимым.
+                    </p>
+                  </div>
+                  <div class="item__author">
+                    <div class="item__image">
+                      <img
+                        class="item__photo"
+                        src="images/reviews/02.jpg"
+                        alt="Фото автора комментария"
+                      />
+                    </div>
+                    <div class="item__box">
+                      <div class="item__name">Георгий Горин</div>
+                      <a class="item__link" href="#">@georgiigorin</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <div class="kviz-wrapper">
+        <div class="kviz-box">
+          <div class="kviz-box__content">
+            <div class="kviz-box__text">Сэкономьте ваше время</div>
+            <div class="kviz-box__lead">Вы можете пройти опрос</div>
+            <div class="kviz-box__descr">
+              <p>
+                и получить бесплатный дизайн квартиры/комнаты в течении
+                <span>2-3 дней</span>
+              </p>
+            </div>
+          </div>
+          <div class="kviz">
+            <div class="kviz__wrap">
+              <div class="kviz__inner">
+                <ul class="kviz__items kviz__column-one">
+                  <div class="kviz__divider">
+                    <div class="kviz__line background-divider"></div>
+                    <div class="kviz__line background-divider"></div>
+                    <div class="kviz__line background-divider"></div>
+                    <div class="kviz__line background-divider"></div>
+                    <div class="kviz__line background-divider"></div>
+                    <div class="kviz__line background-divider"></div>
+                  </div>
+                  <li class="kviz__item item-kviz-one">
+                    <div class="kviz__number">
+                      Вопрос &nbsp; 1 &nbsp; из &nbsp; 6
+                    </div>
+                    <div class="kviz__question">
+                      <p>1. Дизайн интерьера какого объекта Вас интересует?</p>
+                    </div>
+                    <div class="item-kviz-one__wrap">
+                      <ul class="item-kviz-one__columns">
+                        <li class="item-kviz-one__column">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="item-kviz-one__image"
+                              src="images/kviz/column/01.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="r1"
+                              checked
+                            />
+                            <span class="kviz__check"></span>Квартира</label
+                          >
+                        </li>
+                        <li class="item-kviz-one__column">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="item-kviz-one__image"
+                              src="images/kviz/column/02.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="house"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="r1"
+                            />
+                            <span class="kviz__check"></span>Дом, коттедж
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="kviz__item item-kviz-two none">
+                    <div class="kviz__number">
+                      Вопрос &nbsp; 2 &nbsp; из &nbsp; 6
+                    </div>
+                    <div class="kviz__question">
+                      <p>2. Какая у Вас площадь помещения?</p>
+                    </div>
+                    <div class="item-kviz-two__wrap">
+                      <input
+                        class="kviz__input item-kviz-two__input-space"
+                        type="number"
+                        value="0"
+                        name="number"
+                      /><span class="kviz__area">м<sup>2</sup></span>
+                      <input
+                        id="myRange"
+                        class="kviz__input-range item-kviz-two__input-range"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="0"
+                        name="range"
+                      />
+                    </div>
+                  </li>
+                  <li class="kviz__item item-kviz-three none">
+                    <div class="kviz__number">
+                      Вопрос &nbsp; 3 &nbsp; из &nbsp; 6
+                    </div>
+                    <div class="kviz__question">
+                      <p>3. В каком стиле Вы хотите интерьер?</p>
+                    </div>
+                    <div class="kviz-slider swiper-container">
+                      <ul class="kviz-slider__wrapper swiper-wrapper">
+                        <li class="kviz-slider__item swiper-slide">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="kviz-slider__image"
+                              src="images/kviz/list-slider/01.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="radion"
+                              checked
+                            />
+                            <span class="kviz__check"></span>
+                            Современный
+                          </label>
+                        </li>
+                        <li class="kviz-slider__item swiper-slide">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="kviz-slider__image"
+                              src="images/kviz/list-slider/02.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="radion"
+                            />
+                            <span class="kviz__check"></span>
+                            Лофт
+                          </label>
+                        </li>
+                        <li class="kviz-slider__item swiper-slide">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="kviz-slider__image"
+                              src="images/kviz/list-slider/03.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="radion"
+                            />
+                            <span class="kviz__check"></span>
+                            Эко стиль
+                          </label>
+                        </li>
+                        <li class="kviz-slider__item swiper-slide">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="kviz-slider__image"
+                              src="images/kviz/list-slider/04.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="radion"
+                            />
+                            <span class="kviz__check"></span>
+                            Минимализм
+                          </label>
+                        </li>
+                        <li class="kviz-slider__item swiper-slide">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="kviz-slider__image"
+                              src="images/kviz/list-slider/05.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="radion"
+                            />
+                            <span class="kviz__check"></span>
+                            Арт декор
+                          </label>
+                        </li>
+                        <li class="kviz-slider__item swiper-slide">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="kviz-slider__image"
+                              src="images/kviz/list-slider/06.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="radion"
+                            />
+                            <span class="kviz__check"></span>
+                            Нео-классика
+                          </label>
+                        </li>
+                        <li class="kviz-slider__item swiper-slide">
+                          <label class="kviz__label-choice">
+                            <img
+                              class="kviz-slider__image"
+                              src="images/kviz/list-slider/07.jpg"
+                              alt="Изображение дизайна интерьера"
+                            />
+                            <input
+                              data-apartaments="flat"
+                              class="kviz__inp-choice"
+                              type="radio"
+                              name="radion"
+                            />
+                            <span class="kviz__check"></span>
+                            Мемфис
+                          </label>
+                        </li>
+                      </ul>
+                      <div class="swiper-scrollbar"></div>
+                    </div>
+                  </li>
+                  <li class="kviz__item item-kviz-four none">
+                    <div class="kviz__number">
+                      Вопрос &nbsp; 4 &nbsp; из &nbsp; 6
+                    </div>
+                    <div class="kviz__question">
+                      <p>4. Что для Вас важно в дизайне?</p>
+                    </div>
+                    <ul class="kviz__list list-kviz item-kviz-three">
+                      <li class="list-kviz__item">
+                        <label class="list-kviz__label">
+                          <input
+                            class="list-kviz__input"
+                            type="checkbox"
+                            name="check"
+                            checked
+                          />
+                          Простота и лаконичность
+                          <span class="list-kviz__check"></span>
+                        </label>
+                      </li>
+                      <li class="list-kviz__item">
+                        <label class="list-kviz__label">
+                          <input
+                            class="list-kviz__input"
+                            type="checkbox"
+                            name="check"
+                          />
+                          Функциональность и практич
+                          <span class="list-kviz__check"></span>ность
+                        </label>
+                      </li>
+                      <li class="list-kviz__item">
+                        <label class="list-kviz__label">
+                          <input
+                            class="list-kviz__input"
+                            type="checkbox"
+                            name="check"
+                          />
+                          Роскошь
+                          <span class="list-kviz__check"></span>
+                        </label>
+                      </li>
+                      <li class="list-kviz__item">
+                        <label class="list-kviz__label">
+                          <input
+                            class="list-kviz__input"
+                            type="checkbox"
+                            name="check"
+                          />
+                          Креативные решения
+                          <span class="list-kviz__check"></span>
+                        </label>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="kviz__item item-kviz-five none">
+                    <div class="kviz__number">
+                      Вопрос &nbsp; 5 &nbsp; из &nbsp; 6
+                    </div>
+                    <div class="kviz__question">
+                      <p>
+                        5. Вы можете более детально описать Ваши пожелания, а
+                        также загрузить файлы
+                      </p>
+                    </div>
+                    <textarea class="kviz__textarea" name="text">
+Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.Простота и лаконичность
+                          </textarea
+                    >
+                    <label class="kviz__label">
+                      <svg class="kviz__icon" width="30" height="30">
+                        <use xlink:href="images/sprite.svg#clip"></use>
+                      </svg>
+                      <input
+                        id="kviz__attach"
+                        class="kviz__input hide"
+                        name="file"
+                        type="file"
+                      />
+                      Прикрепить файлы</label
+                    >
+                  </li>
+                  <li class="kviz__item item-kviz-six none">
+                    <div class="kviz__number">
+                      Вопрос &nbsp; 6 &nbsp; из &nbsp; 6
+                    </div>
+                    <div class="kviz__question">
+                      <p>6. Заполните контакную форму для обратной связи</p>
+                    </div>
+                    <form class="item-kviz-six__form">
+                      <input
+                        class="item-kviz-six__input"
+                        type="text"
+                        placeholder="Имя"
+                        name="name"
+                        required
+                      />
+                      <input
+                        class="item-kviz-six__input"
+                        type="number"
+                        placeholder="Телефон"
+                        name="phone"
+                        required
+                      />
+                      <input
+                        class="item-kviz-six__input"
+                        type="text"
+                        placeholder="E-mail"
+                        name="email"
+                        required
+                      />
+                      <textarea
+                        class="item-kviz-six__textarea"
+                        type="text"
+                        placeholder="Сообщение"
+                      ></textarea>
+                      <button class="item-kviz-six__btn btn" type="submit">
+                        Отправить
+                      </button>
+                    </form>
+                  </li>
+                  <button class="kviz__btn btn">Далее</button>
+                </ul>
+                <div class="kviz__box kviz__column-two box-kviz">
+                  <div class="box-kviz__about">
+                    <div class="box-kviz__desc">
+                      <p>
+                        Меня зовут Виктория и я помогу вам понять какой бюджет
+                        нужен для полной реализации проекта под ключ.
+                      </p>
+                      <p>
+                        Выебрите один из пунктов подходящий для Вашей квартиры
+                        или дома
+                      </p>
+                    </div>
+                    <div class="box-kviz__face">
+                      <div class="box-kviz__img">
+                        <img
+                          class="box-kviz__photo"
+                          src="images/kviz/photo.png"
+                          alt="Фото снователя Vikea"
+                        />
+                      </div>
+                      <div class="box-kviz__person">
+                        <div class="box-kviz__place">
+                          <span class="box-kviz__name">Виктория</span>
+                          <span class="box-kviz__position">
+                            Основатель Vikea
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-kviz__end">
+                    <div class="box-kviz__txt">В конце теста вы получите:</div>
+                    <div class="box-kviz__box">
+                      <img
+                        class="box-kviz__pic"
+                        src="images/kviz/test-01.png"
+                        alt="Изображение теста"
+                        width="124"
+                        height="68"
+                      />
+                      <div class="box-kviz__specification">
+                        3D фото вашего проекта
+                      </div>
+                    </div>
+                    <div class="box-kviz__box">
+                      <img
+                        class="box-kviz__pic"
+                        src="images/kviz/test-02.png"
+                        alt="Изображение теста"
+                        width="105"
+                        height="70"
+                      />
+                      <div class="box-kviz__specification">
+                        Планировку 2D
+                        <span>В PDF-формате</span>
+                      </div>
+                    </div>
+                    <div class="box-kviz__box">
+                      <img
+                        class="box-kviz__pic"
+                        src="images/kviz/test-03.png"
+                        alt="Изображение теста"
+                        width="137"
+                        height="86"
+                      />
+                      <div class="box-kviz__specification">Подбор мебели</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="questions">
+        <div class="container">
+          <h2 class="questions__title title">Остались вопросы??</h2>
+          <div class="questions__descr">
+            <p>Позвоните прямо сейчас!</p>
+          </div>
+          <div class="questions__phone">
+            <a class="questions__link" href="tel:+89807665897">
+              <svg class="questions__icon" width="34" height="34">
+                <use xlink:href="images/sprite.svg#phone"></use>
+              </svg>
+              +8 (980) 76 65 897
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__items">
+          <div class="footer__item">
+            <div class="footer__descr">
+              <p>
+                Студия дизайна <br />
+                интерьера “Vikea” в Москве
+              </p>
+            </div>
+            <div class="footer__copyright">2021. Все права защищены</div>
+          </div>
+          <div class="footer__item">
+            <ul class="footer__social">
+              <li class="footer__element">
+                <a class="footer__link" href="#">
+                  <svg class="footer__icon" width="28" height="28">
+                    <use xlink:href="images/sprite.svg#vk"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__element">
+                <a class="footer__link" href="#">
+                  <svg class="footer__icon" width="28" height="28">
+                    <use xlink:href="images/sprite.svg#youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__element">
+                <a class="footer__link" href="#">
+                  <svg class="footer__icon" width="28" height="28">
+                    <use xlink:href="images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <a class="footer__policy" href="#"> Политика конфиденциальности </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
