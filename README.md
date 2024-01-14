@@ -2,7 +2,7 @@
 
 Проект не попал в продакшн. Реализован полностью мной.
 ## Запуск проекта 
-1. Склонировать проект на ваш компьютер с [GitHub Pages](https://pages.github.com/) с помощью команды:
+1. Склонировать проект на ваш компьютер с [GitHub Pages](https://github.com/RomanHass/vikea-project) с помощью команды:
    `https://github.com/RomanHass/vikea-project.git`
 2. Установить зависимости:
    `npm install`
